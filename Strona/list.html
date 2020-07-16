@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+        
+        <div id="nav">
+
+            <a href="index.html"><img src="pics/home/home_w.svg" alt="HomePage" class="icons"></a>
+            <a href="offer.html"><img src="Pics/offer/offer_w.svg" alt="Local Offer" class="icons"></a>
+            <a href="info.html"><img src="Pics/info/info_w.svg" alt="About Us" class="icons"></a>
+            <a href="contact.html"><img src="Pics/contact/contact_w.svg"alt="Contact" class="icons"></a>
+            <a href="list.html"><img src="Pics/list/list_b.svg"alt="List" class="icons"></a>
+
+        </div>
+    
+        <div id="main">
+
+            
+            <form class="todo-form" id="todoForm">
+                <div class="todo-form-row">
+                    <label class="todo-form-label" for="todoMessage">TO DO LIST</label>
+                    <textarea class="todo-form-message" name="todoMessage" id="todoMessage"></textarea>
+                </div>
+                <div class="todo-form-row">
+                    <button type="submit" class="button todo-form-button">Dodaj</button>
+                </div>
+            </form>
+
+            <section class="todo-list-cnt">
+                <header class="todo-list-header">
+                    <h2 class="todo-list-title">
+                        Lista zadań
+                    </h2>
+                    <form class="todo-list-search-form">
+                        <input type="search" id="todoSearch" class="todo-list-search">
+                    </form>
+                </header>
+            
+                <div class="todo-list" id="todoList">
+                    <!-- tutaj trafią zadania -->
+                </div>
+            </section>
+            <script defer="" src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+            <script src="Script/js.js"></script>
+        </div>
+
+        <div id="footer">
+
+            <p>Strona wykonana przez Mateusz Radwański index: 12439 &copy;</p>
+
+        </div>
+    
+</body>
+
+</html>
